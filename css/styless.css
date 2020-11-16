@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen{
+    background: url(../img/fondo.png) !important;
+    height: 100vh !important;
+    background-size: cover;
+    width: 100% !important;
+    size: cover !important;
+    opacity:0.2 !important;
+    position: fixed !important;
+    filter:alpha(opacity=20) !important; 
+    z-index: -100 !important;
+    
+}
+.rounded-redondo{
+    border-radius: 10px !important;
+}
+header{
+    width: 100%;
+}
+ /*  {
+    width: 90%;
+    margin: 15px auto;
+   background-color: #20206e;
+} */
+/* . {
+    background-color: #20206e;
+    color: floralwhite;
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 1%;
+
+    } */
+.menu_bar{
+    display: none;
+    }
+header nav ul {
+    overflow: hidden;
+    text-align: center;
+    list-style-type: none;
+}
+header nav ul li {
+    float: left;
+    width: 25%;
+    
+}
+
+header nav ul li a {
+    color: #fafafa;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+
+header nav ul li a:hover {
+    background-color: #527db6;
+}
+section {
+    padding: 20px;
+}
+
+/*inicio dropdown*/
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: black;
+    width: 22.5%;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+@media screen and (max-width:700px){
+header nav {
+    width: 80%;
+    height: 60%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+    margin-left: 5%;
+    
+}
+header nav ul li {
+    display: block;
+    float: none;
+    border-bottom:2px solid #e6dede49;
+    width: 100%;
+    text-align: left;
+}
+.menu_bar {
+    display:block;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    
+    
+}
+.menu_bar .bt_menu {
+    display:block;
+    padding:20px;
+    background: #20206e;
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.icon-menu {
+   
+    float: right;
+    font-size: 30px;
+
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: black;
+    width: 80%;
+}
+}
