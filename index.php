@@ -54,10 +54,10 @@
                             <img src="<?php echo($producto["enlace"])?>" class="card-img-top" alt="FOTO">
                             
                             <div class="card-body">
-                                <h3 class="card-title"><?php echo($producto["nombre_producto"]) ?></h3>
-                                <h3 class="card-title"><?php echo($producto["marca_producto"]) ?></h3>
-                                <h3 class="card-title"><?php echo($producto["precio_producto"]) ?></h3>
-                                <p class="card-text"><?php echo($producto["descripcion"]) ?></p>
+                                <h3 class="card-title text-center"><?php echo($producto["nombre_producto"]) ?></h3>
+                                <h3 class="card-title text-center"><?php echo($producto["marca_producto"]) ?></h3>
+                                <h3 class="card-title text-center">$<?php echo(number_format($producto["precio_producto"],2)) ?></h3>
+                                <p class="card-text text-center"><?php echo($producto["descripcion"]) ?></p>
                                 
 
                             </div>

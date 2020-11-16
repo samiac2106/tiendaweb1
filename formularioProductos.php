@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productos</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styless.css">   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -46,19 +47,19 @@
        
             <form action="registrarProductos.php" method="POST"> 
             <div class="container mt-5"><br>
-                <h1 class="mt-2">HAGA SU PEDIDO </h1>
+                <h1 class="mt-2 text-center mb-5">HAGA SU PEDIDO </h1>
 
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Nombre del producto" name="nombre_producto">
+                        <input type="text" class="form-control rounded-redondo" placeholder="Nombre del producto" name="nombre_producto">
                     </div>
                     
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Marca del producto" name="marca_producto">
+                        <input type="text" class="form-control rounded-redondo" placeholder="Marca del producto" name="marca_producto">
                     </div>
 
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Precio del producto" name="precio_producto">
+                        <input type="text" class="form-control rounded-redondo" placeholder="Precio del producto" name="precio_producto">
                     </div>
                 </div>
 
@@ -72,7 +73,7 @@
                 <div class="row mt-3 mb-5 ">
                     <div class="col">
                         <label class="font-weight-bold">Foto:</label>
-                        <input type="text" class="form-control" placeholder="URL productos" name="enlace">
+                        <input type="text" class="form-control rounded-redondo" placeholder="URL productos" name="enlace">
                     </div>
                 </div>
 
